@@ -11,3 +11,8 @@ async def root():
 @app.get("/check")
 async def root():
     return {"message": "Healthy"}
+
+
+@app.get("/test")
+async def root():
+    return {"message": "Test Complete"}
